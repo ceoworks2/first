@@ -1,0 +1,122 @@
+.page-footer {
+  background-color: $color-footer-bg;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  .container {
+    display: flex;
+    align-items: flex-start;
+    gap: 70px;
+  }
+}
+
+.page-footer__item {
+  line-height: 1.7;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  color: $color-white;
+  margin-bottom: 9px;
+}
+
+.page-footer__logo-wrap {
+  margin-bottom: 20px;
+}
+
+.page-footer__logo {
+  font-family: $font-secondary;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.8px;
+  color: $color-accent;
+}
+
+.page-footer__link {
+  text-decoration: none;
+  color: $color-text;
+}
+
+.page-footer__title {
+  color: $color-white;
+  font-family: $font-primary;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+}
+
+.page-footer__social-list {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.page-footer__social-item {
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  fill: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    background-color: #2196f3;
+  }
+}
+
+.page-footer__social-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.page-footer__form-title {
+  font-family: $font-primary;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.page-footer__form-wrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.page-footer__email {
+  background: rgba(33, 150, 243, 0);
+  border: solid 1px rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  padding: 15px 0 15px 15px;
+  width: 358px;
+  color: #ffffff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.page-footer__button {
+  display: flex;
+  align-items: center;
+  background-color: $color-accent;
+  font-family: $font-primary;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 4px;
+  margin-left: 12px;
+  color: #ffffff;
+  padding: 10px 28px;
+  border: none;
+}
+
+.page-footer__button-icon {
+  width: 24px;
+  height: 24px;
+  fill: $color-white;
+  margin-left: 10px;
+}

@@ -1,0 +1,42 @@
+.srv {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.srv-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.srv-subtitle {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 1.08px;
+  text-align: center;
+  color: $color-title;
+}
+
+.srv-item {
+  position: relative;
+}
+
+.srv-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+  width: 100%;
+  text-align: center;
+  font-family: $font-primary;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #ffffff;
+}
